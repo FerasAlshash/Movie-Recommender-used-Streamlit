@@ -1,0 +1,38 @@
+# Environment-specific files
+.env
+
+# Python-related files and directories
+__pycache__/
+*.pyc
+*.pyd
+.ipynb_checkpoints/
+
+# Data files (if you don't want to include them in Git)
+*.csv
+
+# Project-specific files and directories
+.streamlit/
+.cache/
+
+# Editor-specific files and directories
+.vscode/
+.idea/
+
+# Temporary files and backups
+*~
+*.swp
+
+# Logs (optional)
+*.log
+
+# Notes
+# .env: Contains sensitive environment variables
+# __pycache__: Python bytecode files
+# *.pyc, *.pyd: Python bytecode and DLL files
+# .ipynb_checkpoints: Jupyter Notebook checkpoints
+# *.csv: CSV data files (if you don't want to include them in Git)
+# .streamlit: Streamlit-specific data
+# .cache: Temporary files
+# .vscode, .idea: Editor-specific settings
+# *~, *.swp: Temporary backup files
+# *.log: Log files (optional)
